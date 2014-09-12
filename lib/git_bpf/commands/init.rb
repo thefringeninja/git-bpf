@@ -1,7 +1,6 @@
 require 'git_bpf/lib/gitflow'
 require 'git_bpf/lib/git-helpers'
 require 'git_bpf/lib/repository'
-require 'git_bpf/lib/file'
 require 'find'
 
 #
