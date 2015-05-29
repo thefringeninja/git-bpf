@@ -113,7 +113,7 @@ HELP
 
     read, write = IO.pipe
 
-    unless Kernel.fork # Child process
+    unless Process.fork # Child process
       STDOUT.reopen(write)
       STDERR.reopen(write) if STDERR.tty?
       read.close
